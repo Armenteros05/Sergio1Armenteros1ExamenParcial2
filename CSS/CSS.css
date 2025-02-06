@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+    font-size: 24px;
+}
+
+h2 {
+    color: #333;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#colorTexto {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#cambiarColor {
+    background-color: orange;
+}
+
+#cambiarColor:hover {
+    background-color: darkorange;
+}
+
+#agregarTarea {
+    background-color: darkgreen;
+}
+
+#agregarTarea:hover {
+    background-color: green;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.tarea span {
+    flex-grow: 1;
+}
+
+.eliminarTarea {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.eliminarTarea:hover {
+    background-color: darkred;
+}
+
+#tareaInput {
+    width: calc(100% - 120px);
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#menuPizzas {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+#menuPizzas h3 {
+    color: orange;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.pizza-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#formReserva label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.ejercicio-container {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
